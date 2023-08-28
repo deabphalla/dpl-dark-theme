@@ -30,7 +30,7 @@
 		"dropdown.border": "#ffffff1f",
 		"dropdown.foreground": "#cccccc",
 		"dropdown.listBackground": "#1f1f1f",
-		"editor.background": "#ffffff",
+		"editor.background": "#181818",
 		"editor.findMatchBackground": "#9e6a03",
 		"editor.foreground": "#aeaeae",
 		"editor.inactiveSelectionBackground": "#3a3d41",
@@ -107,7 +107,7 @@
 		"settings.dropdownBorder": "#ffffff1f",
 		"settings.headerForeground": "#ffffff",
 		"settings.modifiedItemIndicator": "#bb800966",
-		"sideBar.background": "#202020",
+		"sideBar.background": "#222222",
 		"sideBar.border": "#181818",
 		"sideBar.foreground": "#aeaeae",
 		"sideBarSectionHeader.background": "#181818",
@@ -156,94 +156,88 @@
 		"welcomePage.progress.foreground": "#0078d4",
 		"welcomePage.tileBackground": "#ffffff0f",
 		"widget.border": "#ffffff15",
+		"commandCenter.border": "#191919",
+        "commandCenter.inactiveBorder": "#191919",
+        "commandCenter.background": "#191919",
+        "commandCenter.foreground": "#404040",
 	},
 	"tokenColors": [
 		// Python
 		{
 			"scope": [
-				"source.python", // The whole source
+				"variable",                     // General variable
+				"variable.other.constant",      // Other constant variable
+				"source.python",                // The whole source
 			],
 			"settings": {
-				"foreground": "#ededed",
+				"foreground": "#adadad",
 			},
 		},
 		{
 			"scope": [
-				"meta.function.python",
-				"keyword.operator.assignment.python",
+				"entity.name.function",         // Function
 			],
 			"settings": {
-				"foreground": "#ee6bf8",s
+				"foreground": "#56cdd6",
 			},
 		},
 		{
 			"scope": [
-				"keyword",
-				"meta.function-call.generic.python", // function-call.generic
-				"entity.name.type.class.python", // Class
-				"meta.member.access.python", // Member Access
+				"string.quoted.docstring.multi.python",  // Comment Doctstring
+				"comment.line.number-sign.python"        // Comment Single Line
 			],
 			"settings": {
-				"foreground": "#5ca9dc",
+				"foreground": "#555555",
 			},
 		},
 		{
 			"scope": [
-				"variable.parameter.function.language.special.self.python", // self.
+				"meta.function-call.generic.python",    // Buildin function call
+				"entity.name.type.class",               // Class
+				"entity.name.namespace",                // Namespace from import
+				"variable.parameter",                   // Parameter in function
 			],
 			"settings": {
-				"foreground": "#19c9c9",
-				"fontStyle": "italic"
+				"foreground": "#569CD6",
 			},
 		},
 		{
 			"scope": [
-				"meta.function.decorator.python", // Decorator
+				"keyword.control.import.python",        // Import module
+				"meta.attribute.python",                // Object Attribute
+				"storage.type.function.python",         // Function lead (def ...)
+				"storage.type.class.python",            // Class lead (class ...)
+				"keyword.control.flow.python",          // Control flow (if else, for, ...)
 			],
 			"settings": {
-				"foreground": "#54b858",
-				"fontStyle": "italic"
+				"foreground": "#C586C0",
 			},
 		},
 		{
 			"scope": [
-				"variable.parameter.function-call.python",
+				"string.quoted.single.python"           // String
+
 			],
 			"settings": {
-				"fontStyle": "italic"
+				"foreground": "#c770d3",
 			},
 		},
+		// ITALIC
 		{
 			"scope": [
-				"comment.line.number-sign.python", // Comment Line
-				"string.quoted.docstring.multi.python" // Docstring
+				"variable.parameter",                       // Parameter
+				"string.quoted.docstring.multi.python",     // Comment Doctstring
+				"comment.line.number-sign.python",          // Comment Single Line
+
 			],
 			"settings": {
-				"foreground": "#898989",
-				"fontStyle": "italic"
+				"fontStyle": "italic",
 			},
-		},
+		},// Markdown
 		{
 			"scope": [
-				"meta.attribute.python", // Attribute
-			],
-			"settings": {
-				"foreground": "#ead955",
-			},
-		},
-		{
-			"scope": [
-				"keyword.control.import.python",
-			],
-			"settings": {
-				"foreground": "#ee6bf8",
-			},
-		},
-		// Markdown
-		{
-			"scope": [
-				"heading.1.markdown", // Markdown Header 1 & 2
-				"heading.2.markdown",
+				"heading.1.markdown", // Markdown Header 1
+				"heading.2.markdown", // Markdown Header 2
 			],
 			"settings": {
 				"foreground": "#4caf50",
@@ -252,12 +246,18 @@
 		},
 		{
 			"scope": [
-				"heading.3.markdown", // Markdown Header 3 & 4
-				"heading.4.markdown",
-				"heading.5.markdown",
+				"heading.3.markdown", // Markdown Header 3
 			],
 			"settings": {
 				"foreground": "#2196f3"
+			},
+		}, {
+			"scope": [
+				"heading.4.markdown", // Markdown Header 4
+				"heading.5.markdown", // Markdown Header 5
+			],
+			"settings": {
+				"foreground": "#ed4b82"
 			},
 		},
 		{
