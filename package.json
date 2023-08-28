@@ -2,13 +2,15 @@
   "name": "dpl-dark-theme",
   "displayName": "DPL Dark Theme",
   "description": "One of your choices.",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "dpldarktheme",
   "engines": {
     "vscode": "^1.81.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": ["DPL", "DPL Dark Theme", "Deab Phalla"],
   "contributes": {
     "themes": [
       {
