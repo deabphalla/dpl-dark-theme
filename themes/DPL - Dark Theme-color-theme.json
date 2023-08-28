@@ -170,7 +170,7 @@
 				"source.python",                // The whole source
 			],
 			"settings": {
-				"foreground": "#adadad",
+				"foreground": "#e0e0e0",
 			},
 		},
 		{
@@ -339,7 +339,7 @@
 				"keyword.other.alias.sql"
 			],
 			"settings": {
-				"foreground": "#ee6bf8",
+				"foreground": "#c660cd",
 			},
 		},
 		{
@@ -348,7 +348,7 @@
 				"string.quoted.single.sql"
 			],
 			"settings": {
-				"foreground": "#75a0ef",
+				"foreground": "#6787c3",
 			},
 		},
 	]
