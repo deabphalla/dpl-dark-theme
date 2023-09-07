@@ -2,7 +2,7 @@
   "name": "dpl-dark-theme",
   "displayName": "DPL Dark Theme",
   "description": "One of your choices.",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "publisher": "dpldarktheme",
   "engines": {
     "vscode": "^1.81.0"
@@ -14,9 +14,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "DPL - Dark Theme",
+        "label": "DPL Dark Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/DPL - Dark Theme-color-theme.json"
+        "path": "./themes/dpl-dark-color-theme.json"
       }
     ]
   }
