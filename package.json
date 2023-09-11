@@ -1,8 +1,8 @@
 {
   "name": "dpl-dark-theme",
   "displayName": "DPL Dark Theme",
-  "description": "One of your choices.",
-  "version": "1.0.0",
+  "description": "Dark Theme by Mr. Deab Phalla.",
+  "version": "1.0.1",
   "publisher": "dpldarktheme",
   "engines": {
     "vscode": "^1.81.0"
