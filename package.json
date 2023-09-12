@@ -2,8 +2,9 @@
   "name": "dpl-dark-theme",
   "displayName": "DPL Dark Theme",
   "description": "Dark Theme by Mr. Deab Phalla.",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "publisher": "dpldarktheme",
+  "icon": "images/dpl_dark.png",
   "engines": {
     "vscode": "^1.81.0"
   },
