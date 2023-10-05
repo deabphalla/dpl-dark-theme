@@ -1184,11 +1184,10 @@
 		{
 			"scope": [
 				"source.python",
-				"meta.attribute.python",
-				"variable.parameter.function.language.special.self.python"
+				"meta.attribute.python"
 			],
 			"settings": {
-				"foreground": "#70aad9"
+				"foreground": "#70aad9"	
 			}
 		},
 		{
@@ -1210,6 +1209,8 @@
 				"meta.function-call.generic.python",
 				"entity.name.type.class.python",
 				"meta.member.access.python",
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python"
 			],
 			"settings": {
 				"foreground": "#4ecfca"
@@ -1219,7 +1220,8 @@
 			"scope": [
 				"meta.function.decorator.python",
 				"entity.name.function.decorator.python",
-				"variable.parameter.function.language.special.self.python"
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python"
 			],
 			"settings": {
 				"fontStyle": "italic"
